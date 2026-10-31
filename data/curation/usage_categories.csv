@@ -1,0 +1,229 @@
+category_source,category_code,usage_class,note
+fdc,1,basic_ingredient,乳制品与蛋类多为烹饪原料；甜点奶油等由描述规则调整
+fdc,2,basic_ingredient,香辛料与香草是调味用基础原料
+fdc,3,ready_to_eat,婴幼儿食品为调制即食，不作为成人烹饪原料
+fdc,4,basic_ingredient,食用油为基础原料；沙拉酱等调味品由描述规则调整
+fdc,5,basic_ingredient,禽肉为烹饪原料；裹粉油炸品由描述规则调整
+fdc,6,prepared_dish,汤类为成品菜；酱汁与肉汁由描述规则改为加工食材
+fdc,7,processed_ingredient,香肠与午餐肉是加工肉制品，可用于烹饪搭配
+fdc,8,ready_to_eat,早餐谷物为即食或冲泡食品，不是烹饪原料
+fdc,9,basic_ingredient,水果为烹饪原料；果汁果昔由描述规则改为即食
+fdc,10,basic_ingredient,猪肉为烹饪原料；腌腊培根由描述规则改为加工食材
+fdc,11,basic_ingredient,蔬菜为烹饪原料；油炸薯类由描述规则改为成品菜
+fdc,12,basic_ingredient,坚果种子为基础原料；坚果酱由描述规则改为加工食材
+fdc,13,basic_ingredient,牛肉为烹饪原料
+fdc,14,ready_to_eat,饮料为即饮食品
+fdc,15,basic_ingredient,鱼贝类为烹饪原料；裹粉油炸品由描述规则改为成品菜
+fdc,16,basic_ingredient,豆类为基础原料；豆腐豆奶为加工食材，素肉油炸品为成品菜
+fdc,17,basic_ingredient,羊羔野味为烹饪原料
+fdc,18,ready_to_eat,烘焙食品为即食；生面团派皮由描述规则改为加工食材
+fdc,19,ready_to_eat,糖果甜点为即食；干粉混合料由描述规则改为加工食材
+fdc,20,basic_ingredient,谷物与意面为烹饪原料
+fdc,21,prepared_dish,快餐为成品菜
+fdc,22,prepared_dish,正餐主菜配菜为成品菜；未烹调干粉混合料由描述规则改为加工食材
+fdc,23,ready_to_eat,零食为即食食品
+fdc,24,unknown,类别内混合生肉与熟制菜肴，必须由描述规则逐条判断
+fdc,25,prepared_dish,餐厅食品为成品菜
+wweia,1602,basic_ingredient,奶酪为烹饪原料；裹粉油炸奶酪条由描述规则调整
+wweia,1604,basic_ingredient,农家干酪与乳清奶酪为烹饪原料
+wweia,1820,basic_ingredient,酸奶为烹饪原料；酸奶冻糕由描述规则调整
+wweia,1902,basic_ingredient,植物基奶为烹饪原料；甜味椰浆与冲调饮品由描述规则调整
+wweia,2002,basic_ingredient,牛肉（不含牛肉末）为烹饪原料
+wweia,2006,basic_ingredient,猪肉为烹饪原料
+wweia,2008,basic_ingredient,羊肉山羊肉野味为烹饪原料
+wweia,2202,basic_ingredient,鸡肉整块为烹饪原料
+wweia,2204,prepared_dish,鸡块鸡柳为裹粉或预制的成品菜
+wweia,2206,basic_ingredient,火鸡鸭及其他禽肉为烹饪原料
+wweia,2402,basic_ingredient,鱼类为烹饪原料；仿蟹肉由描述规则改为加工食材
+wweia,2404,basic_ingredient,贝类为烹饪原料；油炸或调味海鲜由描述规则改为成品菜
+wweia,2502,basic_ingredient,鸡蛋为烹饪原料；蛋饼炒蛋蛋沙拉由描述规则改为成品菜
+wweia,2602,processed_ingredient,冷切肉及腌肉为加工肉制品
+wweia,2608,processed_ingredient,香肠为加工肉制品
+wweia,2802,basic_ingredient,豆类豌豆扁豆为烹饪原料；快餐或餐厅豆类配菜由描述规则调整
+wweia,2804,basic_ingredient,坚果种子为烹饪原料；坚果酱由描述规则改为加工食材
+wweia,2806,processed_ingredient,大豆及肉类替代品为加工食材
+wweia,3002,prepared_dish,肉类混合菜为成品菜
+wweia,3004,prepared_dish,禽肉混合菜为成品菜
+wweia,3006,prepared_dish,海鲜混合菜为成品菜
+wweia,3102,prepared_dish,豆类菜肴为成品菜
+wweia,3104,prepared_dish,蔬菜菜肴为成品菜
+wweia,3202,prepared_dish,米饭混合菜为成品菜
+wweia,3204,prepared_dish,意面混合菜为成品菜
+wweia,3206,prepared_dish,芝士通心粉为成品菜
+wweia,3208,prepared_dish,酥皮点心及谷物类组合食品为成品菜
+wweia,3402,prepared_dish,炒饭及捞面炒面为成品菜
+wweia,3404,prepared_dish,炒菜及酱油类调味混合物为成品菜
+wweia,3406,prepared_dish,春卷饺子寿司为成品菜
+wweia,3502,prepared_dish,墨西哥卷饼及塔可为成品菜
+wweia,3506,prepared_dish,其他墨西哥混合菜为成品菜
+wweia,3602,prepared_dish,披萨为成品菜
+wweia,3702,prepared_dish,汉堡为成品菜
+wweia,3703,prepared_dish,热狗三明治为成品菜
+wweia,3704,prepared_dish,鸡排三明治为成品菜
+wweia,3706,prepared_dish,鸡蛋早餐三明治为成品菜
+wweia,3722,prepared_dish,花生酱果酱三明治为成品菜
+wweia,3730,prepared_dish,海鲜三明治为成品菜
+wweia,3740,prepared_dish,熟食冷切肉三明治为成品菜
+wweia,3742,prepared_dish,肉类及烧烤三明治为成品菜
+wweia,3804,prepared_dish,清汤类汤品为成品菜
+wweia,3808,prepared_dish,拉面及亚洲清汤面为成品菜
+wweia,4002,basic_ingredient,米饭为烹饪原料
+wweia,4004,basic_ingredient,意面面条及熟谷物为烹饪原料
+wweia,4202,ready_to_eat,发酵面包为即食食品
+wweia,4204,ready_to_eat,小餐包及面包卷为即食食品
+wweia,4206,ready_to_eat,贝果及英式松饼为即食食品
+wweia,4402,ready_to_eat,饼干玛芬速发面包为即食食品
+wweia,4404,prepared_dish,煎饼华夫饼法式吐司为已烹制食品
+wweia,4602,ready_to_eat,高糖即食谷物为即食食品
+wweia,4604,ready_to_eat,低糖即食谷物为即食食品
+wweia,4802,prepared_dish,燕麦粥为已烹制食品
+wweia,4804,prepared_dish,玉米糊及其他熟谷物为已烹制食品
+wweia,5002,ready_to_eat,薯片为即食零食
+wweia,5004,ready_to_eat,玉米片及其他薯片为即食零食
+wweia,5006,ready_to_eat,爆米花为即食零食
+wweia,5008,ready_to_eat,椒盐脆饼及混合零食为即食零食
+wweia,5202,ready_to_eat,饼干为即食零食
+wweia,5402,ready_to_eat,谷物棒为即食零食
+wweia,5502,ready_to_eat,蛋糕与派为即食甜点
+wweia,5504,ready_to_eat,曲奇与布朗尼为即食甜点
+wweia,5506,ready_to_eat,甜甜圈甜面包糕点为即食甜点
+wweia,5702,ready_to_eat,含巧克力糖果为即食糖果
+wweia,5704,ready_to_eat,不含巧克力糖果为即食糖果
+wweia,5802,ready_to_eat,冰淇淋及冷冻乳制甜点为即食甜点
+wweia,5804,ready_to_eat,布丁为即食甜点
+wweia,5806,ready_to_eat,果冻冰沙雪葩为即食甜点
+wweia,6016,basic_ingredient,水果干为烹饪与烘焙原料
+wweia,6018,basic_ingredient,其他水果为烹饪原料；水果沙拉由描述规则改为成品菜
+wweia,6404,basic_ingredient,胡萝卜为烹饪原料
+wweia,6406,basic_ingredient,其他红橙色蔬菜为烹饪原料
+wweia,6407,basic_ingredient,西兰花为烹饪原料
+wweia,6411,basic_ingredient,其他深绿色蔬菜为烹饪原料；加火腿或猪肉的菜叶由描述规则调整
+wweia,6412,basic_ingredient,四季豆为烹饪原料
+wweia,6416,basic_ingredient,玉米为烹饪原料
+wweia,6418,basic_ingredient,其他淀粉类蔬菜为烹饪原料
+wweia,6420,basic_ingredient,其他蔬菜及蔬菜拼盘为烹饪原料
+wweia,6430,prepared_dish,油炸蔬菜为成品菜
+wweia,6432,prepared_dish,凉拌菜及非生菜类沙拉为成品菜
+wweia,6802,basic_ingredient,白土豆烤或煮为烹饪原料
+wweia,6804,prepared_dish,炸薯条及油炸白土豆为成品菜
+wweia,6806,prepared_dish,土豆泥及白土豆制品为成品菜
+wweia,7006,ready_to_eat,果汁为即饮饮料
+wweia,7204,ready_to_eat,果汁饮料为即饮饮料
+wweia,7206,ready_to_eat,运动及能量饮料为即饮饮料
+wweia,7220,ready_to_eat,冰沙及谷物饮品为即饮饮料
+wweia,7302,ready_to_eat,咖啡为即饮饮料
+wweia,7304,ready_to_eat,茶为即饮饮料
+wweia,7506,ready_to_eat,烈酒及鸡尾酒为即饮饮料
+wweia,8008,basic_ingredient,奶油为烹饪原料；咖啡奶精由描述规则改为加工食材
+wweia,8012,processed_ingredient,沙拉酱为加工调味品；植物油由描述规则改为基础食材
+wweia,8406,processed_ingredient,芥末及其他调味品为加工调味品
+wweia,8408,processed_ingredient,橄榄酸黄瓜及腌菜为加工食品
+wweia,8412,processed_ingredient,蘸酱肉汁及其他酱汁为加工调味品
+wweia,8806,processed_ingredient,果酱糖浆及淋酱为加工调味品
+wweia,9402,ready_to_eat,即饮配方奶为即饮食品
+wweia,9404,ready_to_eat,冲调配方奶为即饮食品
+wweia,9602,ready_to_eat,母乳为直接食用食品，不属于常规烹饪原料
+wweia,9802,ready_to_eat,蛋白质及营养粉为冲调即饮食品
+wweia,9999,unknown,未归入食品分类，证据不足时必须由描述规则判断或保持 unknown
+branded,Cheese,basic_ingredient,奶酪是烹饪原料
+branded,Milk,basic_ingredient,乳制品是烹饪原料
+branded,Yogurt,basic_ingredient,酸奶是烹饪原料
+branded,Yogurt/Yogurt Substitutes,basic_ingredient,酸奶及其替代品是烹饪原料
+branded,Plant Based Milk,basic_ingredient,植物基奶是烹饪原料
+branded,Vegetable & Cooking Oils,basic_ingredient,食用油是基础烹饪原料
+branded,Fats Edible,basic_ingredient,食用油脂是基础烹饪原料
+branded,Flours & Corn Meal,basic_ingredient,面粉与玉米粉是烹饪原料
+branded,Grains/Flour,basic_ingredient,谷物与面粉是烹饪原料
+branded,Herbs & Spices,basic_ingredient,香草与香辛料是调味原料
+branded,Herbs/Spices/Extracts,basic_ingredient,香草香辛料与香精是调味原料
+branded,Baking Additives & Extracts,basic_ingredient,烘焙添加剂与香精是烹饪原料
+branded,Frozen Vegetables,basic_ingredient,冷冻蔬菜是烹饪原料
+branded,Pre-Packaged Fruit & Vegetables,basic_ingredient,预包装果蔬是烹饪原料
+branded,Canned Vegetables,basic_ingredient,罐装蔬菜是烹饪原料
+branded,Meat/Poultry/Other Animals  Unprepared/Unprocessed,basic_ingredient,未加工生鲜肉禽是烹饪原料
+branded,Meat/Poultry/Other Animals - Unprepared/Unprocessed,basic_ingredient,未加工生鲜肉禽是烹饪原料
+branded,Frozen Fish & Seafood,basic_ingredient,冷冻鱼贝是烹饪原料
+branded,Other Meats,basic_ingredient,其他生鲜肉类是烹饪原料
+branded,Pasta by Shape & Type,basic_ingredient,干意面是烹饪原料
+branded,Pasta/Noodles,basic_ingredient,干面条是烹饪原料
+branded,All Noodles,basic_ingredient,干面条是烹饪原料
+branded,Sauces/Spreads/Dips/Condiments,processed_ingredient,酱汁蘸料与调味品是加工食材
+branded,Salad Dressing & Mayonnaise,processed_ingredient,沙拉酱与蛋黄酱是加工调味品
+branded,Dips & Salsa,processed_ingredient,蘸酱与莎莎酱是加工调味品
+branded,"Ketchup, Mustard, BBQ & Cheese Sauce",processed_ingredient,番茄酱芥末与烧烤酱是加工调味品
+branded,Other Cooking Sauces,processed_ingredient,烹调酱汁是加工调味品
+branded,Prepared Pasta & Pizza Sauces,processed_ingredient,意面与披萨酱是加工调味品
+branded,"Oriental, Mexican & Ethnic Sauces",processed_ingredient,亚洲与墨西哥风味酱是加工调味品
+branded,"Seasoning Mixes, Salts, Marinades & Tenderizers",processed_ingredient,调味料与腌料是加工调味品
+branded,"Jam, Jelly & Fruit Spreads",processed_ingredient,果酱与果冻是加工调味品
+branded,Syrups & Molasses,processed_ingredient,糖浆与糖蜜是加工调味品
+branded,Honey,processed_ingredient,蜂蜜是加工调味食材
+branded,Nut & Seed Butters,processed_ingredient,坚果酱是加工食材
+branded,"Sausages, Hotdogs & Brats",processed_ingredient,香肠与热狗是加工肉制品
+branded,"Pepperoni, Salami & Cold Cuts",processed_ingredient,腌肉与冷切肉是加工肉制品
+branded,"Bacon, Sausages & Ribs",processed_ingredient,培根香肠与排骨制品是加工肉制品
+branded,Meat/Poultry/Other Animals  Prepared/Processed,processed_ingredient,预加工肉禽是加工食材
+branded,Meat/Poultry/Other Animals - Prepared/Processed,processed_ingredient,预加工肉禽是加工食材
+branded,Meat/Poultry/Other Animals Sausages  Prepared/Processed,processed_ingredient,香肠类加工肉制品
+branded,"Pickles, Olives, Peppers & Relishes",processed_ingredient,腌菜橄榄与调味菜是加工食品
+branded,Canned & Bottled Beans,processed_ingredient,罐装豆类是加工食材；回锅豆由描述规则改为成品菜
+branded,Canned Seafood,processed_ingredient,罐装水产是加工食材
+branded,Fish - Prepared/Processed,processed_ingredient,预加工鱼类是加工食材
+branded,Vegetables  Prepared/Processed,processed_ingredient,预加工蔬菜是加工食材
+branded,Tomatoes,processed_ingredient,罐装或加工番茄是烹饪原料
+branded,Pastry Shells & Fillings,processed_ingredient,派皮与馅料是烘焙加工原料
+branded,Bread & Muffin Mixes,processed_ingredient,面包与松饼预拌粉是加工原料
+branded,"Cake, Cookie & Cupcake Mixes",processed_ingredient,蛋糕预拌粉是加工原料
+branded,Milk Additives,processed_ingredient,咖啡奶精等乳品添加物是加工调味品
+branded,Tea Bags,processed_ingredient,茶包需冲泡，不是即饮饮料
+branded,Canned Soup,prepared_dish,罐装汤是成品菜
+branded,Prepared Soups,prepared_dish,成品汤是成品菜
+branded,Other Soups,prepared_dish,其他汤品是成品菜
+branded,Canned Condensed Soup,prepared_dish,浓缩罐装汤是成品菜
+branded,Frozen Dinners & Entrees,prepared_dish,冷冻正餐是成品菜
+branded,Frozen Appetizers & Hors D'oeuvres,prepared_dish,冷冻开胃菜是成品菜
+branded,"Frozen Breakfast Sandwiches, Biscuits & Meals",prepared_dish,冷冻早餐三明治与套餐是成品菜
+branded,"Frozen Pancakes, Waffles, French Toast & Crepes",prepared_dish,冷冻煎饼华夫饼是已烹制食品
+branded,Dough Based Products / Meals,prepared_dish,面团类主食与套餐是成品菜
+branded,Mexican Dinner Mixes,prepared_dish,墨西哥晚餐料理包是组合成品菜
+branded,Pizza,prepared_dish,披萨是成品菜
+branded,Cooked & Prepared,prepared_dish,熟制预制食品是成品菜
+branded,Vegetable Based Products / Meals,prepared_dish,蔬菜类主食套餐是成品菜
+branded,Vegetable and Lentil Mixes,prepared_dish,蔬菜扁豆混合套餐是成品菜
+branded,Candy,ready_to_eat,糖果是即食零食
+branded,Chocolate,ready_to_eat,巧克力是即食零食
+branded,Confectionery Products,ready_to_eat,糖制甜食是即食零食
+branded,Chewing Gum & Mints,ready_to_eat,口香糖与薄荷糖是即食食品
+branded,"Cakes, Cupcakes, Snack Cakes",ready_to_eat,蛋糕与纸杯蛋糕是即食甜点
+branded,Cookies & Biscuits,ready_to_eat,曲奇与饼干是即食零食
+branded,Biscuits/Cookies,ready_to_eat,饼干与曲奇是即食零食
+branded,Crackers & Biscotti,ready_to_eat,薄脆饼干是即食零食
+branded,Flavored Snack Crackers,ready_to_eat,调味饼干是即食零食
+branded,Ice Cream & Frozen Yogurt,ready_to_eat,冰淇淋与冷冻酸奶是即食甜点
+branded,Other Frozen Desserts,ready_to_eat,其他冷冻甜点是即食甜点
+branded,Puddings & Custards,ready_to_eat,布丁与奶冻是即食甜点
+branded,Cereal,ready_to_eat,即食谷物是即食食品
+branded,Processed Cereal Products,ready_to_eat,谷物加工制品是即食食品
+branded,Breads & Buns,ready_to_eat,面包与面包卷是即食烘焙食品
+branded,Bread,ready_to_eat,面包是即食烘焙食品
+branded,Savoury Bakery Products,ready_to_eat,咸味烘焙食品是即食食品
+branded,"Croissants, Sweet Rolls, Muffins & Other Pastries",ready_to_eat,酥皮点心与松饼是即食烘焙食品
+branded,Snacks,ready_to_eat,零食是即食食品
+branded,Other Snacks,ready_to_eat,其他零食是即食食品
+branded,Wholesome Snacks,ready_to_eat,健康零食是即食食品
+branded,"Chips, Pretzels & Snacks",ready_to_eat,薯片与脆饼是即食零食
+branded,"Snack, Energy & Granola Bars",ready_to_eat,能量棒与谷物棒是即食零食
+branded,Non Alcoholic Beverages  Ready to Drink,ready_to_eat,即饮无酒精饮料是即食食品
+branded,Non Alcoholic Beverages - Ready to Drink,ready_to_eat,即饮无酒精饮料是即食食品
+branded,Soda,ready_to_eat,汽水是即饮饮料
+branded,Other Drinks,ready_to_eat,其他饮料是即饮食品
+branded,Water,ready_to_eat,饮用水是即饮食品
+branded,Alcoholic Beverages,ready_to_eat,酒类是即饮饮料
+branded,Alcohol,ready_to_eat,酒类是即饮饮料
+branded,"Fruit & Vegetable Juice, Nectars & Fruit Drinks",ready_to_eat,果蔬汁与果露是即饮饮料
+branded,Powdered Drinks,ready_to_eat,冲调饮品粉是即饮食品
+branded,Sport Drinks,ready_to_eat,运动饮料是即饮饮料
+branded,"Energy, Protein & Muscle Recovery Drinks",ready_to_eat,能量与蛋白饮品是即饮饮料
+branded,Baking Decorations & Dessert Toppings,ready_to_eat,烘焙装饰与甜点淋酱是即食成品
+branded,"Popcorn, Peanuts, Seeds & Related Snacks",unknown,该类别混合即食零食与生坚果，必须由描述规则逐条判断
+branded,Other Deli,unknown,熟食柜混合生熟制品，证据不足时保持 unknown

@@ -1,0 +1,126 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 10px 10px;
+  border-top: 1px dashed var(--line);
+  background: var(--bg-soft);
+  border-radius: 0 0 16px 16px;
+}
+
+.gramsRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.stepButton {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--bg-card);
+  color: var(--ink-600);
+  cursor: pointer;
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out);
+}
+
+.stepButton:hover {
+  background: var(--green-100);
+  color: var(--green-700);
+}
+
+.gramsLabel {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--bg-card);
+  overflow: hidden;
+}
+
+.gramsHint {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.gramsInput {
+  width: 100%;
+  padding: 5px 34px 5px 8px;
+  border: none;
+  background: none;
+  font-family: var(--font-num);
+  font-size: 13px;
+  color: var(--ink-900);
+  text-align: center;
+  outline: none;
+  -moz-appearance: textfield;
+}
+
+.gramsInput::-webkit-outer-spin-button,
+.gramsInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.gramsInput[aria-invalid='true'] {
+  background: var(--danger-50);
+}
+
+.gramsUnit {
+  position: absolute;
+  right: 8px;
+  font-size: 11px;
+  color: var(--ink-400);
+  pointer-events: none;
+}
+
+.error {
+  margin: 0;
+  font-size: 10.5px;
+  color: var(--danger-500);
+}
+
+.portionLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.portionHint {
+  font-size: 10.5px;
+  color: var(--ink-400);
+}
+
+.portionSelect {
+  width: 100%;
+  padding: 4px 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--bg-card);
+  font-size: 11.5px;
+  color: var(--ink-700);
+  cursor: pointer;
+}
+
+.noPortion {
+  margin: 0;
+  font-size: 10.5px;
+  color: var(--ink-400);
+  line-height: 1.5;
+}
+
+.contributionHint {
+  margin: 0;
+  font-size: 10px;
+  color: var(--ink-400);
+}

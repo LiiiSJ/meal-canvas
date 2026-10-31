@@ -1,0 +1,186 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-card);
+  min-width: 0;
+}
+
+.card[data-meal-type='breakfast'] {
+  border-top: 3px solid var(--yellow-500);
+}
+
+.card[data-meal-type='lunch'] {
+  border-top: 3px solid var(--green-500);
+}
+
+.card[data-meal-type='dinner'] {
+  border-top: 3px solid var(--orange-500);
+}
+
+.card[data-meal-type='snack'] {
+  border-top: 3px solid var(--sky-300);
+}
+
+.highlighted {
+  border-color: var(--green-500);
+  box-shadow: var(--shadow-soft);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-900);
+}
+
+.count {
+  flex: 1;
+  color: var(--ink-400);
+  font-size: 11px;
+}
+
+.actions {
+  display: flex;
+  gap: 4px;
+}
+
+.iconButton {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--bg-card);
+  color: var(--ink-600);
+  cursor: pointer;
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out);
+}
+
+.iconButton:hover:not(:disabled) {
+  background: var(--green-100);
+  color: var(--green-600);
+}
+
+.iconButton:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.dangerButton:hover:not(:disabled) {
+  background: var(--danger-100);
+  color: var(--danger-500);
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+}
+
+.empty p {
+  margin: 0;
+  color: var(--ink-400);
+  font-size: 12px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: var(--space-2);
+  border-radius: var(--radius-sm);
+  background: var(--bg-soft-2);
+}
+
+.itemHead {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.itemMain {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.itemName {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-900);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.removeButton {
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  background: var(--bg-card);
+  color: var(--ink-400);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.removeButton:hover {
+  background: var(--danger-100);
+  color: var(--danger-500);
+}
+
+.addButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  align-self: flex-start;
+  padding: 5px var(--space-3);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--green-600);
+  font-size: 12px;
+  cursor: pointer;
+  transition:
+    border-color var(--motion-fast) var(--ease-out),
+    background var(--motion-fast) var(--ease-out);
+}
+
+.addButton:hover {
+  border-color: var(--green-500);
+  background: var(--green-100);
+}

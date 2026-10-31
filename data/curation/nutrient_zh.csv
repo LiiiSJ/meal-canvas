@@ -1,0 +1,38 @@
+﻿nutrient_id,nbr,name_en,name_zh,unit_zh,group_zh,decimals,is_core
+1008,208,Energy,能量,千卡,能量,0,1
+1062,268,Energy,能量（千焦）,千焦,能量,0,0
+1003,203,Protein,蛋白质,克,宏量营养素,1,1
+1004,204,Total lipid (fat),脂肪,克,宏量营养素,1,1
+1005,205,"Carbohydrate, by difference",碳水化合物,克,宏量营养素,1,1
+1079,291,"Fiber, total dietary",膳食纤维,克,宏量营养素,1,1
+2000,269,Total Sugars,总糖,克,宏量营养素,1,1
+1051,255,Water,水分,克,其他,1,0
+1007,207,Ash,灰分,克,其他,1,0
+1002,202,Nitrogen,氮,克,其他,2,0
+1093,307,"Sodium, Na",钠,毫克,矿物质,0,1
+1087,301,"Calcium, Ca",钙,毫克,矿物质,0,1
+1089,303,"Iron, Fe",铁,毫克,矿物质,1,1
+1090,304,"Magnesium, Mg",镁,毫克,矿物质,0,1
+1091,305,"Phosphorus, P",磷,毫克,矿物质,0,1
+1092,306,"Potassium, K",钾,毫克,矿物质,0,1
+1095,309,"Zinc, Zn",锌,毫克,矿物质,1,1
+1098,312,"Copper, Cu",铜,毫克,矿物质,2,1
+1162,401,"Vitamin C, total ascorbic acid",维生素C,毫克,维生素,1,1
+1165,404,Thiamin,维生素B1（硫胺素）,毫克,维生素,2,1
+1166,405,Riboflavin,维生素B2（核黄素）,毫克,维生素,2,1
+1167,406,Niacin,维生素B3（烟酸）,毫克,维生素,1,1
+1170,410,Pantothenic acid,维生素B5（泛酸）,毫克,维生素,2,0
+1175,415,Vitamin B-6,维生素B6,毫克,维生素,2,1
+1177,417,"Folate, total",叶酸,微克,维生素,0,1
+1178,418,Vitamin B-12,维生素B12,微克,维生素,1,1
+1180,421,"Choline, total",胆碱,毫克,维生素,1,0
+1185,430,Vitamin K (phylloquinone),维生素K,微克,维生素,1,1
+1106,320,"Vitamin A, RAE",维生素A（视黄醇活性当量）,微克,维生素,0,1
+1104,318,"Vitamin A, IU",维生素A（国际单位）,国际单位,维生素,0,0
+1109,323,Vitamin E (alpha-tocopherol),维生素E,毫克,维生素,2,1
+1110,324,"Vitamin D (D2 + D3), International Units",维生素D（国际单位）,国际单位,维生素,0,1
+1253,601,Cholesterol,胆固醇,毫克,脂肪酸,0,1
+1257,605,"Fatty acids, total trans",反式脂肪酸,克,脂肪酸,2,1
+1258,606,"Fatty acids, total saturated",饱和脂肪酸,克,脂肪酸,2,1
+1292,645,"Fatty acids, total monounsaturated",单不饱和脂肪酸,克,脂肪酸,2,1
+1293,646,"Fatty acids, total polyunsaturated",多不饱和脂肪酸,克,脂肪酸,2,1

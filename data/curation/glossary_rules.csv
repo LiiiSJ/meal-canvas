@@ -1,0 +1,68 @@
+﻿match_pattern,name_zh,status,note
+(?i)\bbroccoli,西兰花,glossary,词典匹配候选，待人工核验
+(?i)\bcauliflower,花椰菜,glossary,词典匹配候选，待人工核验
+(?i)\bspinach,菠菜,glossary,词典匹配候选，待人工核验
+(?i)\bkale,羽衣甘蓝,glossary,词典匹配候选，待人工核验
+(?i)\blettuce,生菜,glossary,词典匹配候选，待人工核验
+(?i)\btomato,番茄,glossary,词典匹配候选，待人工核验
+(?i)\bcarrot,胡萝卜,glossary,词典匹配候选，待人工核验
+(?i)\bonion,洋葱,glossary,词典匹配候选，待人工核验
+(?i)\bgarlic,大蒜,glossary,词典匹配候选，待人工核验
+(?i)\bpotato,马铃薯,glossary,词典匹配候选，待人工核验
+(?i)\bsweet potato,红薯,glossary,词典匹配候选，待人工核验
+(?i)\bcucumber,黄瓜,glossary,词典匹配候选，待人工核验
+(?i)\bbell pepper,甜椒,glossary,词典匹配候选，待人工核验
+(?i)\bmushroom,蘑菇,glossary,词典匹配候选，待人工核验
+(?i)\bcabbage,卷心菜,glossary,词典匹配候选，待人工核验
+(?i)\bcelery,芹菜,glossary,词典匹配候选，待人工核验
+(?i)\bzucchini,西葫芦,glossary,词典匹配候选，待人工核验
+(?i)\beggplant,茄子,glossary,词典匹配候选，待人工核验
+(?i)\basparagus,芦笋,glossary,词典匹配候选，待人工核验
+(?i)\bcorn,玉米,glossary,词典匹配候选，待人工核验
+(?i)\bgreen peas,豌豆,glossary,词典匹配候选，待人工核验
+(?i)\blentil,小扁豆,glossary,词典匹配候选，待人工核验
+(?i)\bchickpea,鹰嘴豆,glossary,词典匹配候选，待人工核验
+(?i)\bbean,豆类,glossary,词典匹配候选，待人工核验
+(?i)\brice,米,glossary,词典匹配候选，待人工核验
+(?i)\boat,燕麦,glossary,词典匹配候选，待人工核验
+(?i)\bbread,面包,glossary,词典匹配候选，待人工核验
+(?i)\bpasta,意面,glossary,词典匹配候选，待人工核验
+(?i)\bflour,面粉,glossary,词典匹配候选，待人工核验
+(?i)\bapple,苹果,glossary,词典匹配候选，待人工核验
+(?i)\bbanana,香蕉,glossary,词典匹配候选，待人工核验
+(?i)\borange,橙子,glossary,词典匹配候选，待人工核验
+(?i)\bgrape,葡萄,glossary,词典匹配候选，待人工核验
+(?i)\bstrawberry,草莓,glossary,词典匹配候选，待人工核验
+(?i)\bblueberry,蓝莓,glossary,词典匹配候选，待人工核验
+(?i)\braspberry,树莓,glossary,词典匹配候选，待人工核验
+(?i)\bpear,梨,glossary,词典匹配候选，待人工核验
+(?i)\bpeach,桃,glossary,词典匹配候选，待人工核验
+(?i)\bpineapple,菠萝,glossary,词典匹配候选，待人工核验
+(?i)\bmango,芒果,glossary,词典匹配候选，待人工核验
+(?i)\bwatermelon,西瓜,glossary,词典匹配候选，待人工核验
+(?i)\bavocado,牛油果,glossary,词典匹配候选，待人工核验
+(?i)\bmilk,牛奶,glossary,词典匹配候选，待人工核验
+(?i)\byogurt,酸奶,glossary,词典匹配候选，待人工核验
+(?i)\bcheese,奶酪,glossary,词典匹配候选，待人工核验
+(?i)\begg,鸡蛋,glossary,词典匹配候选，待人工核验
+(?i)\bchicken,鸡肉,glossary,词典匹配候选，待人工核验
+(?i)\bturkey,火鸡肉,glossary,词典匹配候选，待人工核验
+(?i)\bbeef,牛肉,glossary,词典匹配候选，待人工核验
+(?i)\bpork,猪肉,glossary,词典匹配候选，待人工核验
+(?i)\blamb,羊肉,glossary,词典匹配候选，待人工核验
+(?i)\bsalmon,三文鱼,glossary,词典匹配候选，待人工核验
+(?i)\btuna,金枪鱼,glossary,词典匹配候选，待人工核验
+(?i)\bshrimp,虾,glossary,词典匹配候选，待人工核验
+(?i)\bcod,鳕鱼,glossary,词典匹配候选，待人工核验
+(?i)\balmond,杏仁,glossary,词典匹配候选，待人工核验
+(?i)\bwalnut,核桃,glossary,词典匹配候选，待人工核验
+(?i)\bpeanut,花生,glossary,词典匹配候选，待人工核验
+(?i)\bcashew,腰果,glossary,词典匹配候选，待人工核验
+(?i)\bolive oil,橄榄油,glossary,词典匹配候选，待人工核验
+(?i)\bcanola oil,芥花籽油,glossary,词典匹配候选，待人工核验
+(?i)\bsoybean oil,大豆油,glossary,词典匹配候选，待人工核验
+(?i)\bsugar,糖,glossary,词典匹配候选，待人工核验
+(?i)\bsalt,盐,glossary,词典匹配候选，待人工核验
+(?i)\bhoney,蜂蜜,glossary,词典匹配候选，待人工核验
+(?i)\bcoffee,咖啡,glossary,词典匹配候选，待人工核验
+(?i)\btea,茶,glossary,词典匹配候选，待人工核验

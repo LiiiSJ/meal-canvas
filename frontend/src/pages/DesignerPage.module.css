@@ -1,0 +1,278 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(300px, 360px) minmax(320px, 1fr) minmax(280px, 340px);
+  gap: var(--space-5);
+  align-items: start;
+}
+
+.panelTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* 左栏：食材库 */
+.libraryColumn {
+  min-width: 0;
+}
+
+/* 中栏：餐盘 */
+.platePanel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-soft);
+}
+
+.plateHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.plateActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.planButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px var(--space-3);
+  border: 1px solid var(--green-500);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--green-600);
+  font-size: 12px;
+  cursor: pointer;
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out);
+}
+
+.planButton:hover:not(:disabled) {
+  background: var(--green-500);
+  color: #fff;
+}
+
+.planButton:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.planStatus {
+  color: var(--green-600);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.planWarning {
+  color: var(--danger-500);
+  font-size: 12px;
+}
+
+.clearButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--ink-600);
+  font-size: 12px;
+  cursor: pointer;
+  transition: color var(--motion-fast) var(--ease-out);
+}
+
+.clearButton:hover:not(:disabled) {
+  color: var(--danger-500);
+  border-color: var(--danger-100);
+}
+
+.clearButton:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.plateArea {
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(closest-side, var(--bg-soft-2) 62%, var(--bg-soft) 63%, var(--bg-soft) 70%, transparent 71%),
+    var(--bg-soft-2);
+  border: 1px dashed var(--line-strong);
+  padding: var(--space-5);
+  min-height: 340px;
+  display: flex;
+}
+
+.plateEmpty {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+
+.plateEmptyTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.plateEmptyDesc {
+  color: var(--ink-400);
+  font-size: 13px;
+  max-width: 260px;
+}
+
+.plateItems {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+.plateItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  padding-right: var(--space-7);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-card);
+}
+
+.plateItemMain {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.plateItemName {
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.plateItemRemove {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: 50%;
+  background: var(--bg-soft);
+  color: var(--ink-400);
+  cursor: pointer;
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out);
+}
+
+.plateItemRemove:hover {
+  background: var(--danger-100);
+  color: var(--danger-500);
+}
+
+.plateItemPlan {
+  position: absolute;
+  top: var(--space-2);
+  right: calc(var(--space-2) + 26px);
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: 50%;
+  background: var(--bg-soft);
+  color: var(--ink-400);
+  cursor: pointer;
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out);
+}
+
+.plateItemPlan:hover {
+  background: var(--green-100);
+  color: var(--green-600);
+}
+
+.plateNote {
+  color: var(--ink-400);
+  font-size: 12px;
+}
+
+/* 右栏：本餐营养 */
+.insightColumn {
+  min-width: 0;
+}
+
+.insightCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-soft);
+}
+
+.insightHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.analysisLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+@media (max-width: 1280px) {
+  .workspace {
+    grid-template-columns: minmax(280px, 340px) minmax(300px, 1fr);
+  }
+
+  .insightColumn {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 960px) {
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+}

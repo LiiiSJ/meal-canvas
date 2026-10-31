@@ -1,0 +1,92 @@
+priority,stage,pattern,usage_class,data_type,category_source,category_code,note
+0,before_category,\b(coca[- ]?cola|coke|pepsi|sprite|fanta|7[- ]?up|dr\.? pepper|mountain dew|sunkist|schweppes)\b,ready_to_eat,,,,品牌苏打与汽水是即饮饮料
+0,before_category,cand(y|ies),ready_to_eat,,,,糖果（含复数 candies）是即食零食
+0,before_category,snack mix|party mix|trail mix|chex mix|pub mix,ready_to_eat,,,,混合零食与派对什锦是即食零食
+0,before_category,spaghettios|chef boyardee,ready_to_eat,,,,罐装意面是即食成品
+0,before_category,teriyaki sauce|stir[- ]?fry sauce,processed_ingredient,,,,照烧酱与炒菜酱是烹饪调味品，先于炒面等成品菜规则
+0,before_category,"^(peanut|almond|cashew|nut) butter(,|$)",processed_ingredient,,,,坚果酱本身是加工食材；以坚果酱开头的三明治等组合食品交给类别规则
+0,before_category,\bas (an )?ingredient\b,processed_ingredient,,,,明确标注作为配料的熟制食品是加工食材
+0,before_category,hot dog.*bun|hot dog bun,ready_to_eat,,,,热狗面包属于即食烘焙食品，不是热狗成品菜
+0,before_category,sandwich-type,ready_to_eat,,,,夹心饼干是即食零食，不是三明治成品菜
+0,before_category,cookie mix|cake mix|bread mix|pancake mix|muffin mix|brownie mix|pudding mix|pie filling mix|frosting mix|baking mix|bread crumbs|stuffing mix|seasoning mix|taco seasoning,processed_ingredient,,fdc,,干粉混合料、面包糠是烹饪用加工原料
+0,before_category,cookie mix|cake mix|bread mix|pancake mix|muffin mix|brownie mix|pudding mix|pie filling mix|frosting mix|baking mix|bread crumbs|stuffing mix|seasoning mix|taco seasoning,processed_ingredient,,branded,,干粉混合料、面包糠是烹饪用加工原料
+0,before_category,pie crust|pastry dough|refrigerated dough|frozen dough|puff pastry,processed_ingredient,,fdc,,生面团与派皮是烹饪用加工原料
+0,before_category,pie crust|pastry dough|refrigerated dough|frozen dough|puff pastry,processed_ingredient,,branded,,生面团与派皮是烹饪用加工原料
+0,before_category,dry packet|dry mix,processed_ingredient,,fdc,,未烹调的干粉混合料属于加工原料；生鲜或冷冻原料不得因“unprepared”被误判
+0,before_category,10 minute cooking|instant bouillon|bouillon,processed_ingredient,,fdc,,需加水烹调的干粉/浓缩料属于加工原料
+0,before_category,tea bag,processed_ingredient,,,,茶包需冲泡，不是即饮饮料
+0,before_category,vinegar,processed_ingredient,,,,醋是加工调味品，且优先于葡萄酒等关键词
+0,before_category,whipped topping|dessert topping|whipped cream,ready_to_eat,,,,植脂奶油与甜点淋酱是即食成品，不是烹饪原料
+0,before_category,coffee creamer|creamer,processed_ingredient,,,,咖啡奶精是加工调味品
+0,before_category,shrimp cocktail,ready_to_eat,,,,虾鸡尾酒是即食冷盘
+0,before_category,sardines,processed_ingredient,,,,罐装沙丁鱼是加工食品
+0,before_category,sundae|parfait,ready_to_eat,,,,圣代与酸奶冻糕是即食甜点
+0,before_category,overnight oatmeal,ready_to_eat,,branded,,隔夜燕麦杯是即食食品
+0,before_category,nutritional powder|protein powder|protein shake|meal replacement|complete meal|nutritional shake,ready_to_eat,,branded,,营养粉与代餐是冲调即饮食品
+0,before_category,"^(beverage|drink)s?[, ].*(powder|mix)|beverage mix|drink mix|cocoa mix|hot cocoa|chocolate-flavor beverage mix|hot chocolate",ready_to_eat,,,,冲调饮品粉是即饮食品，不是烹饪原料
+0,before_category,egg substitute,processed_ingredient,,,,蛋液替代品是加工食材
+0,before_category,refried beans|baked beans,prepared_dish,,,,茄汁豆与回锅豆是已烹制配菜
+0,before_category,meal starter|meal kit|dinner kit|oven kit,prepared_dish,,,,料理包与晚餐套装是组合成品菜
+0,before_category,macaroni.*cheese|mac & cheese|mac n cheese|shells and.*cheese|cheese.*pasta,prepared_dish,,,,芝士通心粉是成品菜
+0,before_category,breakfast bowl|breakfast sandwich|sausage.*egg.*cheese.*croissant,prepared_dish,,,,早餐碗与早餐三明治是组合成品菜
+0,before_category,biscuit.*gravy|biscuit.*egg|biscuit.*ham|biscuit.*sausage,prepared_dish,,,,配肉汁或蛋肉的饼干是成品菜
+0,before_category,pizza,prepared_dish,,,,披萨是成品菜
+0,before_category,pancakes?|waffles?|french toast,prepared_dish,,,,煎饼华夫饼法式吐司是已烹制食品
+0,before_category,sandwich|burger|cheeseburger|hamburger|burrito|taco|tamale|enchilada|taquito|gordita|chilaquiles|quesadilla|nachos|egg roll|wonton|dumpling|pot sticker|sushi|empanada|ravioli|tortellini|calzone|stromboli|corn dog,prepared_dish,,,,三明治、汉堡、卷饼、饺子寿司等组合成品菜
+0,before_category,taco shell|tortilla shell,processed_ingredient,,,,塔可壳是烹饪用加工原料
+0,before_category,soup|stew|soupy|bisque|chowder|gumbo|ramen|pho,prepared_dish,,,,汤、炖菜、拉面是成品菜
+0,before_category,oatmeal|grits|cooked cereal|cornmeal mush|cream of wheat|hominy,prepared_dish,,,,燕麦粥、玉米糊等熟谷物是已烹制食品
+1,before_category,\bfried\b|\bbreaded\b|\bbattered\b|\bnuggets?\b|\bchicken\s+tenders?\b|\btenders\b|fish sticks?|popcorn shrimp|french fries?|french fried|hash brown|potato tots?|onion rings?|mozzarella sticks?|fried okra|fried green tomatoes,prepared_dish,,,,裹粉、油炸、鸡块鸡柳等是成品菜；优先度低于腌腊香肠，避免 pan-fried bacon 被抢先判为成品菜
+0,before_category,stir-fry|stir fry|chow mein|chop suey|fried rice|pad thai|biryani|risotto|paella|lasagna|shepherd's pie|pot pie|casserole|scalloped|gratin|\bstuffed\b,prepared_dish,,,,炒面、炒饭、千层面等组合成品菜
+0,before_category,salad,prepared_dish,,,,沙拉与凉拌菜是成品菜；沙拉酱由更高优先级规则处理
+0,before_category,with ham or pork,prepared_dish,,,,加火腿或猪肉的菜叶是成品菜
+0,before_category,jerky|meat stick|meat snack,ready_to_eat,,,,牛肉干与肉棒是即食零食，不属于烹饪原料
+0,before_category,breakfast biscuit|biscuit.*(sausage|egg|ham|cheese)|(sausage|egg|ham|cheese).*biscuit,prepared_dish,,,,早餐饼干夹肉蛋芝士是组合成品菜
+0,before_category,pickled|cured|smoked|bacon|\bham\b|sausage|salami|bologna|pastrami|pepperoni|chorizo|mortadella|headcheese|luncheon,processed_ingredient,,,,腌腊、烟熏、香肠与午餐肉是加工肉制品
+0,before_category,tofu|soybean curd|tempeh|seitan|soymilk|soy milk|meatless|meat substitute|textured vegetable protein,processed_ingredient,,,,豆腐、豆奶与素肉是加工食材
+0,before_category,sardines,processed_ingredient,,,,罐装沙丁鱼是加工食品
+0,before_category,imitation crab,processed_ingredient,,,,仿蟹肉是加工食材
+0,before_category,margarine|butter spread|move over butter,processed_ingredient,,,,人造黄油与涂抹脂是加工食材
+0,before_category,industrial|fully hydrogenated|partially hydrogenated,processed_ingredient,,fdc,,工业油脂与氢化油是加工原料
+-1,before_category,salad dressing,processed_ingredient,,fdc,,沙拉酱是加工调味品，优先于 salad 成品菜规则
+-1,before_category,salad dressing,processed_ingredient,,branded,,沙拉酱是加工调味品，优先于 salad 成品菜规则
+0,before_category,sauce|dressing|mayonnaise|\bmayo\b|ketchup|mustard|gravy|broth|\bstock\b|bouillon|marinade|syrup|\bjam\b|jelly|marmalade|preserve|\bpaste\b|pesto|hummus|\bdip\b|salsa|guacamole|chutney|tahini|icing|frosting|filling|powder,processed_ingredient,,fdc,,酱汁、调味品、糖浆与干粉是加工食材
+0,before_category,sauce|dressing|mayonnaise|\bmayo\b|ketchup|mustard|gravy|broth|\bstock\b|bouillon|marinade|syrup|\bjam\b|jelly|marmalade|preserve|\bpaste\b|pesto|hummus|\bdip\b|salsa|guacamole|chutney|tahini|icing|frosting|filling|powder,processed_ingredient,,branded,,酱汁、调味品、糖浆与干粉是加工食材
+0,before_category,coconut cream|coconut water,processed_ingredient,,,,椰浆与椰子水是加工饮品原料
+0,before_category,go-gurt|yogurt.*tube|yogurt.*fruit,ready_to_eat,,,,果味酸奶与酸奶管是即食乳制品
+0,before_category,cottage.*with,ready_to_eat,,,,加水果或 gelatin 的农家干酪是即食组合食品
+0,before_category,diced tomatoes?|whole peeled tomatoes?|canned tomatoes?,processed_ingredient,,fdc,,罐装番茄是烹饪用加工原料
+0,before_category,diced tomatoes?|whole peeled tomatoes?|canned tomatoes?,processed_ingredient,,branded,,罐装番茄是烹饪用加工原料
+0,before_category,juice|smoothie|nectar,ready_to_eat,,fdc,,果汁、果昔与果露是即饮饮料
+0,before_category,juice|smoothie|nectar,ready_to_eat,,branded,,果汁、果昔与果露是即饮饮料
+0,before_category,beverage|soda|cola|seltzer|sparkling water|energy drink|sports drink|electrolyte water|coffee|\btea\b|liquor|beer|wine|cocktail|kombucha|shake|dairy beverage|milk beverage,ready_to_eat,,fdc,,饮料、咖啡、茶、酒类是即饮食品
+0,before_category,beverage|soda|cola|seltzer|sparkling water|energy drink|sports drink|electrolyte water|coffee|\btea\b|liquor|beer|wine|cocktail|kombucha|shake|dairy beverage|milk beverage,ready_to_eat,,branded,,饮料、咖啡、茶、酒类是即饮食品
+0,before_category,cereal|granola,ready_to_eat,,fdc,,即食谷物与格兰诺拉是即食食品
+0,before_category,cereal|granola,ready_to_eat,,branded,,即食谷物与格兰诺拉是即食食品
+0,before_category,candy|chocolate|gum|gummies|gummy|marshmallow|cookies?|brownies?|doughnuts?|donuts?|cupcakes?|cake|pie|pastry|pastries|ice cream|frozen yogurt|frozen dessert|pudding|gelatin|sorbet|toffee|sprinkles|fruit snacks|fruit leather|snack bar|granola bar|protein bar|energy bar|crackers?|popcorn|pretzels?|snack mix|chips|crisps,ready_to_eat,,fdc,,糖果甜点、饼干薯片爆米花是即食零食
+0,before_category,candy|chocolate|gum|gummies|gummy|marshmallow|cookies?|brownies?|doughnuts?|donuts?|cupcakes?|cake|pie|pastry|pastries|ice cream|frozen yogurt|frozen dessert|pudding|gelatin|sorbet|toffee|sprinkles|fruit snacks|fruit leather|snack bar|granola bar|protein bar|energy bar|crackers?|popcorn|pretzels?|snack mix|chips|crisps,ready_to_eat,,branded,,糖果甜点、饼干薯片爆米花是即食零食
+0,before_category,bread|bun|roll|bagel|muffin|biscuit|crouton|tortilla|pita|naan,ready_to_eat,,fdc,,面包、面包卷、贝果与玉米饼是即食烘焙食品
+0,before_category,bread|bun|roll|bagel|muffin|biscuit|crouton|tortilla|pita|naan,ready_to_eat,,branded,,面包、面包卷、贝果与玉米饼是即食烘焙食品
+0,before_category,souffle|omelet|scrambled eggs?,prepared_dish,,,,蛋饼、炒蛋与蛋奶酥是成品菜
+0,before_category,yogurt.*parfait,ready_to_eat,,,,酸奶冻糕是即食甜点
+0,before_category,not reconstituted,processed_ingredient,,fdc,,未复水干粉是加工原料
+0,after_category,fresh|raw,basic_ingredient,,fdc,,标注生鲜的肉类与食材仍是烹饪原料
+0,after_category,liver|bone marrow|tongue|gizzard|heart|kidney,basic_ingredient,,fdc,,内脏器官肉是烹饪原料（含美洲原住民食品类别）
+0,after_category,\boil\b,basic_ingredient,,fdc,,食用油是基础烹饪原料
+0,after_category,\boil\b,basic_ingredient,,branded,,食用油是基础烹饪原料
+0,after_category,milk|yogurt|cheese|cream|egg|butter,basic_ingredient,,fdc,,乳、蛋、奶酪与奶油是基础烹饪原料
+0,after_category,milk|yogurt|cheese|cream|egg|butter,basic_ingredient,,branded,,乳、蛋、奶酪与奶油是基础烹饪原料
+0,after_category,beef|pork|chicken|turkey|lamb|veal|venison|deer|elk|moose|caribou|rabbit|duck|goose|fish|salmon|tuna|cod|shrimp|scallop|crab|lobster|clam|oyster|mahi|pollock|frog legs|ostrich|pheasant|squirrel|bear|wild pig|meat,basic_ingredient,,fdc,,生鲜畜禽鱼贝是基础烹饪原料
+0,after_category,beef|pork|chicken|turkey|lamb|veal|venison|deer|elk|moose|caribou|rabbit|duck|goose|fish|salmon|tuna|cod|shrimp|scallop|crab|lobster|clam|oyster|mahi|pollock|frog legs|ostrich|pheasant|squirrel|bear|wild pig|meat,basic_ingredient,,branded,,生鲜畜禽鱼贝是基础烹饪原料
+0,after_category,tomato|potato|onion|pepper|carrot|broccoli|spinach|lettuce|cabbage|cauliflower|celery|cucumber|zucchini|squash|pumpkin|bean|pea|lentil|chickpea|soybean|mushroom|brussels|kale|beet|asparagus|corn|fruit|apple|banana|orange|berry|berries|grape|peach|pear|plum|cherry|melon|pineapple|mango|coconut|date|fig|rhubarb|avocado,basic_ingredient,,fdc,,蔬菜水果与豆类是基础烹饪原料
+0,after_category,tomato|potato|onion|pepper|carrot|broccoli|spinach|lettuce|cabbage|cauliflower|celery|cucumber|zucchini|squash|pumpkin|bean|pea|lentil|chickpea|soybean|mushroom|brussels|kale|beet|asparagus|corn|fruit|apple|banana|orange|berry|berries|grape|peach|pear|plum|cherry|melon|pineapple|mango|coconut|date|fig|rhubarb|avocado,basic_ingredient,,branded,,蔬菜水果与豆类是基础烹饪原料
+0,after_category,rice|pasta|noodle|macaroni|spaghetti|vermicelli|flour|starch|cornmeal|semolina|gluten|bran|oats|barley|quinoa|couscous|grits|hominy|corn|malt powder,basic_ingredient,,fdc,,谷物、面粉与意面是基础烹饪原料
+0,after_category,rice|pasta|noodle|macaroni|spaghetti|vermicelli|flour|starch|cornmeal|semolina|gluten|bran|oats|barley|quinoa|couscous|grits|hominy|corn|malt powder,basic_ingredient,,branded,,谷物、面粉与意面是基础烹饪原料
+0,after_category,nuts?|almonds?|cashews?|pecans?|walnuts?|pistachios?|peanuts?|sunflower|sesame|chia|flax|seeds?|nut,basic_ingredient,,fdc,,坚果种子是基础烹饪原料
+0,after_category,nuts?|almonds?|cashews?|pecans?|walnuts?|pistachios?|peanuts?|sunflower|sesame|chia|flax|seeds?|nut,basic_ingredient,,branded,,坚果种子是基础烹饪原料
+0,after_category,salt|spices?|herbs?|extract,basic_ingredient,,fdc,,盐、香辛料与香草精是基础调味原料
+0,after_category,salt|spices?|herbs?|extract,basic_ingredient,,branded,,盐、香辛料与香草精是基础调味原料
+0,after_category,cheese|yogurt|milk,basic_ingredient,,wweia,,WWEIA 未细分的乳制品仍按基础原料
+0,after_category,\braw\b|unprepared,basic_ingredient,,fdc,,明确标注生/未加工的食品是基础原料
+0,after_category,pumpkin seeds|sunflower kernels|sesame seeds,basic_ingredient,,branded,,南瓜籽、葵花籽与芝麻是基础食材
+0,before_category,"^honey(,|$)",processed_ingredient,,,,蜂蜜是加工甜味食材；不匹配以 Honey 开头的商品名（如谷物麦片）

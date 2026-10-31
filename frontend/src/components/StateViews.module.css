@@ -1,0 +1,127 @@
+.skeletonGrid {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.skeletonCard {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  padding: var(--space-4);
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.skeletonIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: linear-gradient(90deg, var(--bg-soft) 25%, var(--bg-soft-2) 50%, var(--bg-soft) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite linear;
+  flex: none;
+}
+
+.skeletonLines {
+  flex: 1;
+  display: grid;
+  gap: 8px;
+}
+
+.skeletonLine,
+.skeletonLineShort {
+  height: 12px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--bg-soft) 25%, var(--bg-soft-2) 50%, var(--bg-soft) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+
+.skeletonLineShort {
+  width: 46%;
+}
+
+.state {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2);
+  padding: var(--space-8) var(--space-5);
+  text-align: center;
+  color: var(--ink-600);
+  background: var(--bg-card);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-lg);
+}
+
+.stateIcon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 20px;
+  background: var(--green-100);
+  color: var(--green-600);
+}
+
+.stateTitle {
+  color: var(--ink-900);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.stateDesc {
+  max-width: 46ch;
+  font-size: 14px;
+}
+
+.stateHint {
+  font-size: 13px;
+  color: var(--ink-400);
+}
+
+.stateAction {
+  margin-top: var(--space-2);
+}
+
+.errorState {
+  border-color: var(--danger-500);
+  background: var(--danger-100);
+  color: var(--ink-600);
+}
+
+.retryButton {
+  margin-top: var(--space-2);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--line-strong);
+  background: var(--bg-card);
+  color: var(--ink-900);
+  cursor: pointer;
+  transition: background var(--motion-fast) var(--ease-out), transform var(--motion-fast) var(--ease-out);
+}
+
+.retryButton:hover {
+  background: var(--bg-soft);
+  transform: translateY(-1px);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeletonIcon,
+  .skeletonLine,
+  .skeletonLineShort {
+    animation: none;
+  }
+}

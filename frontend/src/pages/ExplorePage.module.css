@@ -1,0 +1,229 @@
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.loadedNote {
+  font-size: 13px;
+  color: var(--ink-600);
+  font-family: var(--font-num);
+}
+
+.controls {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-3);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 12px;
+  color: var(--ink-400);
+}
+
+.select,
+.searchInput {
+  padding: 8px var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  font-size: 13px;
+  color: var(--ink-900);
+}
+
+.searchField {
+  flex: 1;
+  min-width: 200px;
+}
+
+.searchInput {
+  width: 100%;
+}
+
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  color: var(--ink-400);
+  font-size: 12px;
+  margin-bottom: var(--space-4);
+}
+
+.loadingText {
+  color: var(--ink-400);
+  font-size: 13px;
+}
+
+.chartCard {
+  padding: var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-soft);
+}
+
+.chartHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-4);
+}
+
+.chartTitle {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.chartDesc {
+  margin-top: 4px;
+  color: var(--ink-400);
+  font-size: 12px;
+}
+
+.chartDesc3D {
+  margin-top: 4px;
+  color: var(--ink-400);
+  font-size: 12px;
+}
+
+.chartActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.hintText {
+  color: var(--ink-400);
+  font-size: 12px;
+}
+
+.chartStats {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.statChip {
+  padding: 3px var(--space-2);
+  border-radius: var(--radius-pill);
+  background: var(--bg-soft);
+  color: var(--ink-600);
+  font-size: 12px;
+}
+
+.statWarn {
+  background: var(--orange-100);
+  color: var(--orange-500);
+}
+
+.chartEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-7) 0;
+  color: var(--ink-400);
+  font-size: 13px;
+}
+
+.chartFooter {
+  display: flex;
+  justify-content: center;
+  padding-top: var(--space-3);
+}
+
+.loadMoreButton {
+  padding: 8px var(--space-6);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--green-600);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--motion-fast) var(--ease-out);
+}
+
+.loadMoreButton:hover {
+  background: var(--green-100);
+}
+
+.detailBar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--orange-300);
+  border-radius: var(--radius-md);
+  background: var(--orange-100);
+}
+
+.detailInfo {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.detailInfo strong {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.detailValues {
+  font-size: 12px;
+  color: var(--ink-600);
+  font-family: var(--font-num);
+}
+
+.detailActions {
+  display: flex;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+.textButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 7px var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--ink-600);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.addButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px var(--space-3);
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--green-500);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.addButton:disabled {
+  background: var(--green-100);
+  color: var(--green-600);
+  cursor: default;
+}

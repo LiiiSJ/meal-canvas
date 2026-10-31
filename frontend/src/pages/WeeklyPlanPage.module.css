@@ -1,0 +1,662 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-width: var(--content-max);
+}
+
+.headerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px var(--space-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--green-600);
+  font-size: 13px;
+  text-decoration: none;
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    border-color var(--motion-fast) var(--ease-out);
+}
+
+.headerLink:hover {
+  background: var(--green-100);
+  border-color: var(--green-300);
+}
+
+.loadingText {
+  margin: 0;
+  color: var(--ink-400);
+  font-size: 13px;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-card);
+}
+
+.weekNav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.navButton {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--bg-card);
+  color: var(--ink-600);
+  cursor: pointer;
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out);
+}
+
+.navButton:hover {
+  background: var(--green-100);
+  color: var(--green-600);
+}
+
+.weekLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.weekLabel strong {
+  font-size: 14px;
+  color: var(--ink-900);
+}
+
+.weekHint {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--ink-400);
+  font-size: 11px;
+}
+
+.thisWeekButton {
+  padding: 5px var(--space-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--bg-soft-2);
+  color: var(--ink-600);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.thisWeekButton:hover:not(:disabled) {
+  background: var(--green-100);
+  color: var(--green-600);
+}
+
+.thisWeekButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.saveArea {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.statusChip {
+  padding: 4px var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--bg-soft);
+  color: var(--ink-600);
+  font-size: 12px;
+}
+
+.statusChip[data-status='saving'] {
+  background: var(--sky-100);
+  color: var(--ink-600);
+}
+
+.statusChip[data-status='saved'] {
+  background: var(--green-100);
+  color: var(--green-600);
+}
+
+.statusChip[data-status='dirty'] {
+  background: var(--orange-100);
+  color: var(--ink-600);
+}
+
+.statusChip[data-status='error'] {
+  background: var(--danger-100);
+  color: var(--danger-500);
+}
+
+.saveButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px var(--space-4);
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--green-500);
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background var(--motion-fast) var(--ease-out);
+}
+
+.saveButton:hover:not(:disabled) {
+  background: var(--green-600);
+}
+
+.saveButton:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.deleteButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px var(--space-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--ink-400);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.deleteButton:hover:not(:disabled) {
+  background: var(--danger-100);
+  color: var(--danger-500);
+  border-color: var(--danger-500);
+}
+
+.deleteButton:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.saveError {
+  margin: 0;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  background: var(--danger-100);
+  color: var(--danger-500);
+  font-size: 12px;
+}
+
+.noticeBar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--green-300);
+  border-radius: var(--radius-sm);
+  background: var(--green-100);
+  color: var(--green-600);
+  font-size: 12px;
+}
+
+.noticeBar > span {
+  flex: 1;
+}
+
+.noticeAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px var(--space-2);
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--green-600);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.noticeClose {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--green-600);
+  cursor: pointer;
+}
+
+.emptyPlanNote {
+  margin: 0;
+  color: var(--ink-400);
+  font-size: 13px;
+}
+
+.dayList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.dayCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--bg-soft-2);
+}
+
+.todayCard {
+  border-color: var(--green-500);
+  box-shadow: var(--shadow-soft);
+  scroll-margin-top: var(--space-4);
+}
+
+.dayHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.dayTitle {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  color: var(--ink-600);
+  font-size: 12px;
+}
+
+.dayTitle strong {
+  font-size: 15px;
+  color: var(--ink-900);
+}
+
+.todayBadge {
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--green-500);
+  color: #fff;
+  font-size: 11px;
+}
+
+.dayActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.emptyDayText {
+  color: var(--ink-400);
+  font-size: 12px;
+}
+
+.addSnackButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px var(--space-3);
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--ink-600);
+  font-size: 12px;
+  cursor: pointer;
+  transition:
+    border-color var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out);
+}
+
+.addSnackButton:hover {
+  border-color: var(--orange-500);
+  color: var(--orange-500);
+}
+
+.mealGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-3);
+}
+
+.dayTotal {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+}
+
+.dayTotalTitle {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: 13px;
+  color: var(--ink-900);
+}
+
+.dayTotalTitle span {
+  color: var(--ink-400);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.energySection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 15px;
+  color: var(--ink-900);
+}
+
+.sectionHint {
+  margin: 0;
+  color: var(--ink-400);
+  font-size: 12px;
+}
+
+.energyList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: var(--space-2) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.energyRow {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr) 96px;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.energyDate {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: var(--ink-600);
+}
+
+.energyDate small {
+  color: var(--ink-400);
+  font-size: 10px;
+}
+
+.energyTrack {
+  display: block;
+  height: 10px;
+  border-radius: var(--radius-pill);
+  background: var(--bg-soft);
+  overflow: hidden;
+}
+
+.energyFill {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: var(--green-500);
+  transition: width var(--motion-base) var(--ease-out);
+}
+
+.energyFill[data-empty='true'] {
+  background: transparent;
+}
+
+.energyValue {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 3px;
+  font-family: var(--font-num);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-900);
+}
+
+.energyValue small {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--ink-400);
+}
+
+.energyValue em {
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--ink-400);
+}
+
+.energyNote {
+  margin: 0;
+  color: var(--ink-400);
+  font-size: 11px;
+}
+
+.dialogOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  display: grid;
+  place-items: center;
+  padding: var(--space-4);
+  background: rgba(62, 58, 52, 0.32);
+}
+
+.dialog {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  width: min(440px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-lift);
+}
+
+.dialogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.dialogHeader h2 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--ink-900);
+}
+
+.dialogClose {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--bg-card);
+  color: var(--ink-600);
+  cursor: pointer;
+}
+
+.dialogHint {
+  margin: 0;
+  color: var(--ink-600);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.dialogField {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-size: 12px;
+  color: var(--ink-400);
+}
+
+.dialogField strong {
+  color: var(--ink-900);
+  font-size: 13px;
+}
+
+.targetList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.targetButton {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 100%;
+  padding: var(--space-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-soft-2);
+  color: var(--ink-600);
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.targetButton small {
+  color: var(--ink-400);
+  font-size: 10px;
+}
+
+.targetActive {
+  border-color: var(--green-500);
+  background: var(--green-100);
+  color: var(--green-600);
+}
+
+.dialogWarn {
+  margin: 0;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  background: var(--orange-100);
+  color: var(--ink-600);
+  font-size: 12px;
+}
+
+.dialogFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.dialogCancel {
+  padding: 6px var(--space-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--ink-600);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.dialogConfirm {
+  padding: 6px var(--space-4);
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--green-500);
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.dialogConfirm:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 960px) {
+  .toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .saveArea {
+    justify-content: flex-start;
+  }
+
+  .energyRow {
+    grid-template-columns: 80px minmax(0, 1fr) 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .dayCard {
+    padding: var(--space-3);
+  }
+
+  .mealGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .dayHeader {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .dayActions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .saveArea {
+    gap: var(--space-1);
+  }
+
+  .saveButton,
+  .deleteButton {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .energyFill {
+    transition: none;
+  }
+}

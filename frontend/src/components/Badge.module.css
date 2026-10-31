@@ -1,0 +1,43 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  line-height: 1.7;
+  font-weight: 500;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.neutral {
+  background: var(--bg-soft);
+  color: var(--ink-600);
+}
+
+.green {
+  background: var(--green-100);
+  color: var(--green-600);
+}
+
+.orange {
+  background: var(--orange-100);
+  color: #a86a2c;
+}
+
+.sky {
+  background: var(--sky-100);
+  color: #4f7f92;
+}
+
+.berry {
+  background: var(--berry-100);
+  color: #a45a48;
+}
+
+.outline {
+  background: transparent;
+  border-color: var(--line-strong);
+  color: var(--ink-600);
+}

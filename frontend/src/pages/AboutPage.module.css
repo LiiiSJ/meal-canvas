@@ -1,0 +1,216 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.sectionTitle {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.sectionDesc {
+  font-size: 13px;
+  color: var(--ink-400);
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-4);
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+
+.metricLabel {
+  font-size: 12px;
+  color: var(--ink-400);
+}
+
+.metricValue {
+  font-family: var(--font-num);
+  font-size: 22px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background: var(--bg-soft-2);
+  border-radius: var(--radius-md);
+  font-size: 12px;
+  color: var(--ink-600);
+}
+
+.datasetGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.datasetCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.datasetHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.datasetName {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.datasetCount {
+  padding: 1px 9px;
+  border-radius: var(--radius-pill);
+  background: var(--green-100);
+  color: var(--green-600);
+  font-size: 11px;
+}
+
+.datasetMeta {
+  font-size: 11px;
+  color: var(--ink-400);
+}
+
+.datasetRole {
+  font-size: 13px;
+  color: var(--ink-600);
+}
+
+.datasetNote {
+  font-size: 12px;
+  color: var(--ink-400);
+  line-height: 1.6;
+}
+
+.ruleGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.rule {
+  padding: var(--space-4);
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.ruleTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ruleText {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--ink-600);
+  line-height: 1.6;
+}
+
+.inlineLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.newWindow {
+  font-size: 11px;
+  color: var(--ink-400);
+}
+
+.card {
+  padding: var(--space-5);
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardText {
+  margin-top: var(--space-2);
+  font-size: 13px;
+  color: var(--ink-600);
+}
+
+.mutedText {
+  color: var(--ink-400);
+  font-size: 12px;
+}
+
+.disclaimer {
+  border-color: var(--orange-300);
+  background: var(--orange-100);
+}
+
+@media (max-width: 1100px) {
+  .ruleGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .datasetGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .ruleGrid,
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: var(--space-4);
+  }
+}

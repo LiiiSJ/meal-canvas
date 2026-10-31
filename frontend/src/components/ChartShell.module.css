@@ -1,0 +1,23 @@
+.shell {
+  position: relative;
+  padding: var(--space-3);
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.chart {
+  width: 100%;
+}
+
+.loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.76);
+  font-size: 13px;
+  color: var(--ink-600);
+}

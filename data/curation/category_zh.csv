@@ -1,0 +1,304 @@
+﻿category_source,category_code,name_en,name_zh,note
+fdc,1,Dairy and Egg Products,乳制品与蛋类,FDC food_category.id
+fdc,2,Spices and Herbs,香辛料与香草,FDC food_category.id
+fdc,3,Baby Foods,婴幼儿食品,FDC food_category.id
+fdc,4,Fats and Oils,油脂类,FDC food_category.id
+fdc,5,Poultry Products,禽肉制品,FDC food_category.id
+fdc,6,"Soups, Sauces, and Gravies",汤、酱汁与肉汁,FDC food_category.id
+fdc,7,Sausages and Luncheon Meats,香肠与午餐肉,FDC food_category.id
+fdc,8,Breakfast Cereals,早餐谷物,FDC food_category.id
+fdc,9,Fruits and Fruit Juices,水果与果汁,FDC food_category.id
+fdc,10,Pork Products,猪肉制品,FDC food_category.id
+fdc,11,Vegetables and Vegetable Products,蔬菜与蔬菜制品,FDC food_category.id
+fdc,12,Nut and Seed Products,坚果与种子,FDC food_category.id
+fdc,13,Beef Products,牛肉制品,FDC food_category.id
+fdc,14,Beverages,饮料,FDC food_category.id
+fdc,15,Finfish and Shellfish Products,鱼类与贝类,FDC food_category.id
+fdc,16,Legumes and Legume Products,豆类与豆制品,FDC food_category.id
+fdc,17,"Lamb, Veal, and Game Products",羊肉、犊牛肉与野味,FDC food_category.id
+fdc,18,Baked Products,烘焙食品,FDC food_category.id
+fdc,19,Sweets,甜味食品,FDC food_category.id
+fdc,20,Cereal Grains and Pasta,谷物与意面,FDC food_category.id
+fdc,21,Fast Foods,快餐,FDC food_category.id
+fdc,22,"Meals, Entrees, and Side Dishes",正餐、主菜与配菜,FDC food_category.id
+fdc,23,Snacks,零食,FDC food_category.id
+fdc,24,American Indian/Alaska Native Foods,美洲原住民食品,FDC food_category.id
+fdc,25,Restaurant Foods,餐厅食品,FDC food_category.id
+fdc,26,Branded Food Products Database,品牌食品数据库,FDC food_category.id
+fdc,27,Quality Control Materials,质量控制样品,FDC food_category.id
+fdc,28,Alcoholic Beverages,酒精饮料,FDC food_category.id
+wweia,1002,"Milk, whole",全脂牛奶,WWEIA 分类
+wweia,1004,"Milk, reduced fat",减脂牛奶,WWEIA 分类
+wweia,1006,"Milk, lowfat",低脂牛奶,WWEIA 分类
+wweia,1008,"Milk, nonfat",脱脂牛奶,WWEIA 分类
+wweia,1202,"Flavored milk, whole",调味全脂牛奶,WWEIA 分类
+wweia,1204,"Flavored milk, reduced fat",调味减脂牛奶,WWEIA 分类
+wweia,1206,"Flavored milk, lowfat",调味低脂牛奶,WWEIA 分类
+wweia,1208,"Flavored milk, nonfat",调味脱脂牛奶,WWEIA 分类
+wweia,1402,Milk shakes and other dairy drinks,奶昔及其他乳饮,WWEIA 分类
+wweia,1602,Cheese,奶酪,WWEIA 分类
+wweia,1604,Cottage/ricotta cheese,农家干酪/乳清奶酪,WWEIA 分类
+wweia,1820,"Yogurt, regular",普通酸奶,WWEIA 分类
+wweia,1822,"Yogurt, Greek",希腊酸奶,WWEIA 分类
+wweia,2002,"Beef, excludes ground",牛肉（不含牛肉末）,WWEIA 分类
+wweia,2004,Ground beef,牛肉末,WWEIA 分类
+wweia,2006,Pork,猪肉,WWEIA 分类
+wweia,2008,"Lamb, goat, game",羊肉、山羊肉、野味,WWEIA 分类
+wweia,2010,Liver and organ meats,肝脏及内脏,WWEIA 分类
+wweia,2202,"Chicken, whole pieces",鸡肉（整块）,WWEIA 分类
+wweia,2204,"Chicken patties, nuggets and tenders",鸡块、鸡柳,WWEIA 分类
+wweia,2206,"Turkey, duck, other poultry",火鸡、鸭及其他禽肉,WWEIA 分类
+wweia,2402,Fish,鱼类,WWEIA 分类
+wweia,2404,Shellfish,贝类,WWEIA 分类
+wweia,2502,Eggs and omelets,鸡蛋及蛋饼,WWEIA 分类
+wweia,2602,Cold cuts and cured meats,冷切肉及腌肉,WWEIA 分类
+wweia,2604,Bacon,培根,WWEIA 分类
+wweia,2606,Frankfurters,热狗肠,WWEIA 分类
+wweia,2608,Sausages,香肠,WWEIA 分类
+wweia,2802,"Beans, peas, legumes",豆类、豌豆、扁豆,WWEIA 分类
+wweia,2804,Nuts and seeds,坚果与种子,WWEIA 分类
+wweia,2806,Soy and meat-alternative products,大豆及肉类替代品,WWEIA 分类
+wweia,3002,Meat mixed dishes,肉类混合菜,WWEIA 分类
+wweia,3004,Poultry mixed dishes,禽肉混合菜,WWEIA 分类
+wweia,3006,Seafood mixed dishes,海鲜混合菜,WWEIA 分类
+wweia,3102,"Bean, pea, legume dishes",豆类菜肴,WWEIA 分类
+wweia,3104,Vegetable dishes,蔬菜菜肴,WWEIA 分类
+wweia,3202,Rice mixed dishes,米饭混合菜,WWEIA 分类
+wweia,3204,"Pasta mixed dishes, excludes macaroni and cheese",意面混合菜（不含芝士通心粉）,WWEIA 分类
+wweia,3206,Macaroni and cheese,芝士通心粉,WWEIA 分类
+wweia,3208,Turnovers and other grain-based items,酥皮点心及其他谷物类食品,WWEIA 分类
+wweia,3402,Fried rice and lo/chow mein,炒饭及捞面/炒面,WWEIA 分类
+wweia,3404,Stir-fry and soy-based sauce mixtures,炒菜及酱油类调味混合物,WWEIA 分类
+wweia,3406,"Egg rolls, dumplings, sushi",春卷、饺子、寿司,WWEIA 分类
+wweia,3502,Burritos and tacos,墨西哥卷饼及塔可,WWEIA 分类
+wweia,3504,Nachos,玉米片配奶酪（nachos）,WWEIA 分类
+wweia,3506,Other Mexican mixed dishes,其他墨西哥混合菜,WWEIA 分类
+wweia,3602,Pizza,披萨,WWEIA 分类
+wweia,3702,Burgers,汉堡,WWEIA 分类
+wweia,3703,Frankfurter sandwiches,热狗三明治,WWEIA 分类
+wweia,3704,Chicken fillet sandwiches,鸡排三明治,WWEIA 分类
+wweia,3706,Egg/breakfast sandwiches,鸡蛋/早餐三明治,WWEIA 分类
+wweia,3720,Cheese sandwiches,奶酪三明治,WWEIA 分类
+wweia,3722,Peanut butter and jelly sandwiches,花生酱果酱三明治,WWEIA 分类
+wweia,3730,Seafood sandwiches,海鲜三明治,WWEIA 分类
+wweia,4002,Rice,米饭,WWEIA 分类
+wweia,4004,"Pasta, noodles, cooked grains",意面、面条及熟谷物,WWEIA 分类
+wweia,4202,Yeast breads,发酵面包,WWEIA 分类
+wweia,4204,Rolls and buns,小餐包及面包卷,WWEIA 分类
+wweia,4206,Bagels and English muffins,贝果及英式松饼,WWEIA 分类
+wweia,4208,Tortillas,墨西哥薄饼（tortilla）,WWEIA 分类
+wweia,4402,"Biscuits, muffins, quick breads",饼干、玛芬、速发面包,WWEIA 分类
+wweia,4404,"Pancakes, waffles, French toast",煎饼、华夫饼、法式吐司,WWEIA 分类
+wweia,4602,"Ready-to-eat cereal, higher sugar (>21.2g/100g)",即食谷物（高糖 >21.2g/100g）,WWEIA 分类
+wweia,4604,"Ready-to-eat cereal, lower sugar (=<21.2g/100g)",即食谷物（低糖 ≤21.2g/100g）,WWEIA 分类
+wweia,4802,Oatmeal,燕麦粥,WWEIA 分类
+wweia,4804,Grits and other cooked cereals,玉米糊及其他熟谷物,WWEIA 分类
+wweia,5002,Potato chips,薯片,WWEIA 分类
+wweia,5004,"Tortilla, corn, other chips",玉米片及其他薯片,WWEIA 分类
+wweia,5006,Popcorn,爆米花,WWEIA 分类
+wweia,5008,Pretzels/snack mix,椒盐脆饼/混合零食,WWEIA 分类
+wweia,5202,"Crackers, excludes saltines",饼干（不含苏打饼干）,WWEIA 分类
+wweia,5204,Saltine crackers,苏打饼干,WWEIA 分类
+wweia,5402,Cereal bars,谷物棒,WWEIA 分类
+wweia,5404,Nutrition bars,营养棒,WWEIA 分类
+wweia,5502,Cakes and pies,蛋糕与派,WWEIA 分类
+wweia,5504,Cookies and brownies,曲奇与布朗尼,WWEIA 分类
+wweia,5506,"Doughnuts, sweet rolls, pastries",甜甜圈、甜面包、糕点,WWEIA 分类
+wweia,5702,Candy containing chocolate,含巧克力糖果,WWEIA 分类
+wweia,5704,Candy not containing chocolate,不含巧克力糖果,WWEIA 分类
+wweia,5802,Ice cream and frozen dairy desserts,冰淇淋及冷冻乳制甜点,WWEIA 分类
+wweia,5804,Pudding,布丁,WWEIA 分类
+wweia,5806,"Gelatins, ices, sorbets",果冻、冰沙、雪葩,WWEIA 分类
+wweia,6002,Apples,苹果,WWEIA 分类
+wweia,6004,Bananas,香蕉,WWEIA 分类
+wweia,6006,Grapes,葡萄,WWEIA 分类
+wweia,6008,Peaches and nectarines,桃与油桃,WWEIA 分类
+wweia,6009,Strawberries,草莓,WWEIA 分类
+wweia,6011,Blueberries and other berries,蓝莓及其他浆果,WWEIA 分类
+wweia,6012,Citrus fruits,柑橘类水果,WWEIA 分类
+wweia,6014,Melons,甜瓜类,WWEIA 分类
+wweia,6016,Dried fruits,水果干,WWEIA 分类
+wweia,6018,Other fruits and fruit salads,其他水果及水果沙拉,WWEIA 分类
+wweia,6020,Pears,梨,WWEIA 分类
+wweia,6022,Pineapple,菠萝,WWEIA 分类
+wweia,6024,Mango and papaya,芒果与木瓜,WWEIA 分类
+wweia,6402,Tomatoes,番茄,WWEIA 分类
+wweia,6404,Carrots,胡萝卜,WWEIA 分类
+wweia,6406,Other red and orange vegetables,其他红橙色蔬菜,WWEIA 分类
+wweia,6407,Broccoli,西兰花,WWEIA 分类
+wweia,6409,Spinach,菠菜,WWEIA 分类
+wweia,6410,Lettuce and lettuce salads,生菜及生菜沙拉,WWEIA 分类
+wweia,6411,Other dark green vegetables,其他深绿色蔬菜,WWEIA 分类
+wweia,6412,String beans,四季豆,WWEIA 分类
+wweia,6413,Cabbage,卷心菜,WWEIA 分类
+wweia,6414,Onions,洋葱,WWEIA 分类
+wweia,6416,Corn,玉米,WWEIA 分类
+wweia,6418,Other starchy vegetables,其他淀粉类蔬菜,WWEIA 分类
+wweia,6420,Other vegetables and combinations,其他蔬菜及蔬菜拼盘,WWEIA 分类
+wweia,6430,Fried vegetables,油炸蔬菜,WWEIA 分类
+wweia,6432,"Coleslaw, non-lettuce salads",凉拌菜（非生菜类沙拉）,WWEIA 分类
+wweia,6489,Vegetables on a sandwich,三明治中的蔬菜,WWEIA 分类
+wweia,6802,"White potatoes, baked or boiled",白土豆（烤或煮）,WWEIA 分类
+wweia,6804,French fries and other fried white potatoes,炸薯条及其他油炸白土豆,WWEIA 分类
+wweia,6806,Mashed potatoes and white potato mixtures,土豆泥及白土豆制品,WWEIA 分类
+wweia,7002,Citrus juice,柑橘汁,WWEIA 分类
+wweia,7004,Apple juice,苹果汁,WWEIA 分类
+wweia,7006,Other fruit juice,其他果汁,WWEIA 分类
+wweia,7008,Vegetable juice,蔬菜汁,WWEIA 分类
+wweia,7102,Diet soft drinks,无糖软饮料,WWEIA 分类
+wweia,7104,Diet sport and energy drinks,无糖运动/能量饮料,WWEIA 分类
+wweia,7106,Other diet drinks,其他无糖饮料,WWEIA 分类
+wweia,7202,Soft drinks,软饮料,WWEIA 分类
+wweia,7204,Fruit drinks,果汁饮料,WWEIA 分类
+wweia,7206,Sport and energy drinks,运动及能量饮料,WWEIA 分类
+wweia,7208,Nutritional beverages,营养饮料,WWEIA 分类
+wweia,7220,Smoothies and grain drinks,冰沙及谷物饮品,WWEIA 分类
+wweia,7302,Coffee,咖啡,WWEIA 分类
+wweia,7304,Tea,茶,WWEIA 分类
+wweia,7502,Beer,啤酒,WWEIA 分类
+wweia,7504,Wine,葡萄酒,WWEIA 分类
+wweia,7506,Liquor and cocktails,烈酒及鸡尾酒,WWEIA 分类
+wweia,7702,Tap water,自来水,WWEIA 分类
+wweia,7704,Bottled water,瓶装水,WWEIA 分类
+wweia,7802,Flavored or carbonated water,调味水或气泡水,WWEIA 分类
+wweia,7804,Enhanced water,强化水,WWEIA 分类
+wweia,8002,Butter and animal fats,黄油及动物脂肪,WWEIA 分类
+wweia,8004,Margarine,人造黄油,WWEIA 分类
+wweia,8006,"Cream cheese, sour cream, whipped cream",奶油奶酪、酸奶油、打发奶油,WWEIA 分类
+wweia,8008,Cream and cream substitutes,奶油及奶油替代品,WWEIA 分类
+wweia,8010,Mayonnaise,蛋黄酱,WWEIA 分类
+wweia,8012,Salad dressings and vegetable oils,沙拉酱及植物油,WWEIA 分类
+wweia,8402,Tomato-based condiments,番茄类调味酱,WWEIA 分类
+wweia,8404,Soy-based condiments,大豆类调味酱,WWEIA 分类
+wweia,8406,Mustard and other condiments,芥末及其他调味品,WWEIA 分类
+wweia,8408,"Olives, pickles, pickled vegetables",橄榄、酸黄瓜及腌菜,WWEIA 分类
+wweia,8410,"Pasta sauces, tomato-based",番茄意面酱,WWEIA 分类
+wweia,8412,"Dips, gravies, other sauces",蘸酱、肉汁及其他酱汁,WWEIA 分类
+wweia,8802,Sugars and honey,糖与蜂蜜,WWEIA 分类
+wweia,8804,Sugar substitutes,代糖,WWEIA 分类
+wweia,8806,"Jams, syrups, toppings",果酱、糖浆及淋酱,WWEIA 分类
+wweia,9002,Baby food: cereals,婴儿辅食：谷物,WWEIA 分类
+wweia,9004,Baby food: fruit,婴儿辅食：水果,WWEIA 分类
+wweia,9006,Baby food: vegetables,婴儿辅食：蔬菜,WWEIA 分类
+wweia,9008,Baby food: meat and dinners,婴儿辅食：肉类与正餐,WWEIA 分类
+wweia,9010,Baby food: yogurt,婴儿辅食：酸奶,WWEIA 分类
+wweia,9012,Baby food: snacks and sweets,婴儿辅食：零食与甜食,WWEIA 分类
+wweia,9202,Baby juice,婴儿果汁,WWEIA 分类
+wweia,9204,Baby water,婴儿饮用水,WWEIA 分类
+wweia,9402,"Formula, ready-to-feed",即饮配方奶,WWEIA 分类
+wweia,9404,"Formula, prepared from powder",冲调配方奶,WWEIA 分类
+wweia,9602,Human milk,母乳,WWEIA 分类
+wweia,9802,Protein and nutritional powders,蛋白质及营养粉,WWEIA 分类
+wweia,9999,Not included in a food category,未归入食品分类,WWEIA 分类
+wweia,9007,Baby food: mixtures,婴儿辅食：混合餐,WWEIA 分类
+wweia,3740,Deli and cured meat sandwiches,熟食冷切肉三明治,WWEIA 分类
+wweia,3742,Meat and BBQ sandwiches,肉类及烧烤三明治,WWEIA 分类
+wweia,3744,Vegetable sandwiches/burgers,蔬菜三明治/蔬菜汉堡,WWEIA 分类
+wweia,1902,Plant-based milk,植物基奶,WWEIA 分类
+wweia,1904,Plant-based yogurt,植物基酸奶,WWEIA 分类
+wweia,3804,"Soups, broth-based",清汤类汤品,WWEIA 分类
+wweia,3806,"Soups, cream-based",奶油浓汤,WWEIA 分类
+wweia,3808,Ramen and Asian broth-based soups,拉面及亚洲清汤面,WWEIA 分类
+branded,__blank__,,未标注分类,USDA branded_food_category 文本
+branded,Candy,Candy,糖果,USDA branded_food_category 文本
+branded,Processed Cereal Products,Processed Cereal Products,加工谷物制品,USDA branded_food_category 文本
+branded,Cheese,Cheese,奶酪,USDA branded_food_category 文本
+branded,Alcoholic Beverages,Alcoholic Beverages,酒精饮料,USDA branded_food_category 文本
+branded,Cereal,Cereal,早餐谷物,USDA branded_food_category 文本
+branded,"Popcorn, Peanuts, Seeds & Related Snacks","Popcorn, Peanuts, Seeds & Related Snacks",爆米花、花生、种子及坚果零食,USDA branded_food_category 文本
+branded,"Cakes, Cupcakes, Snack Cakes","Cakes, Cupcakes, Snack Cakes",蛋糕、纸杯蛋糕与休闲蛋糕,USDA branded_food_category 文本
+branded,Chocolate,Chocolate,巧克力,USDA branded_food_category 文本
+branded,Ice Cream & Frozen Yogurt,Ice Cream & Frozen Yogurt,冰淇淋与冷冻酸奶,USDA branded_food_category 文本
+branded,Cookies & Biscuits,Cookies & Biscuits,曲奇与饼干,USDA branded_food_category 文本
+branded,Dough Based Products / Meals,Dough Based Products / Meals,面团类制品与餐食,USDA branded_food_category 文本
+branded,Sauces/Spreads/Dips/Condiments,Sauces/Spreads/Dips/Condiments,酱汁、涂抹酱、蘸酱与调味品,USDA branded_food_category 文本
+branded,Snacks,Snacks,零食,USDA branded_food_category 文本
+branded,Biscuits/Cookies,Biscuits/Cookies,饼干与曲奇,USDA branded_food_category 文本
+branded,Salad Dressing & Mayonnaise,Salad Dressing & Mayonnaise,沙拉酱与蛋黄酱,USDA branded_food_category 文本
+branded,"Sausages, Hotdogs & Brats","Sausages, Hotdogs & Brats",香肠、热狗与德式香肠,USDA branded_food_category 文本
+branded,"Seasoning Mixes, Salts, Marinades & Tenderizers","Seasoning Mixes, Salts, Marinades & Tenderizers",调味料包、盐、腌料与嫩肉粉,USDA branded_food_category 文本
+branded,Vegetable & Cooking Oils,Vegetable & Cooking Oils,植物油与烹调油,USDA branded_food_category 文本
+branded,Canned & Bottled Beans,Canned & Bottled Beans,罐装与瓶装豆类,USDA branded_food_category 文本
+branded,Frozen Fish & Seafood,Frozen Fish & Seafood,冷冻鱼类与海鲜,USDA branded_food_category 文本
+branded,Milk,Milk,牛奶,USDA branded_food_category 文本
+branded,Non Alcoholic Beverages  Ready to Drink,Non Alcoholic Beverages  Ready to Drink,即饮无酒精饮料,USDA branded_food_category 文本
+branded,Non Alcoholic Beverages - Ready to Drink,Non Alcoholic Beverages - Ready to Drink,即饮无酒精饮料,USDA branded_food_category 文本
+branded,Pasta by Shape & Type,Pasta by Shape & Type,各种形状与类型的意面,USDA branded_food_category 文本
+branded,Savoury Bakery Products,Savoury Bakery Products,咸味烘焙食品,USDA branded_food_category 文本
+branded,"Snack, Energy & Granola Bars","Snack, Energy & Granola Bars",零食棒、能量棒与燕麦棒,USDA branded_food_category 文本
+branded,Baking Decorations & Dessert Toppings,Baking Decorations & Dessert Toppings,烘焙装饰与甜点淋酱,USDA branded_food_category 文本
+branded,Breads & Buns,Breads & Buns,面包与小圆面包,USDA branded_food_category 文本
+branded,Canned Soup,Canned Soup,罐装汤,USDA branded_food_category 文本
+branded,Dips & Salsa,Dips & Salsa,蘸酱与莎莎酱,USDA branded_food_category 文本
+branded,Frozen Appetizers & Hors D'oeuvres,Frozen Appetizers & Hors D'oeuvres,冷冻开胃菜与餐前小食,USDA branded_food_category 文本
+branded,"Frozen Breakfast Sandwiches, Biscuits & Meals","Frozen Breakfast Sandwiches, Biscuits & Meals",冷冻早餐三明治、饼干与餐食,USDA branded_food_category 文本
+branded,Frozen Dinners & Entrees,Frozen Dinners & Entrees,冷冻正餐与主菜,USDA branded_food_category 文本
+branded,Frozen Vegetables,Frozen Vegetables,冷冻蔬菜,USDA branded_food_category 文本
+branded,Meat/Poultry/Other Animals  Unprepared/Unprocessed,Meat/Poultry/Other Animals  Unprepared/Unprocessed,生鲜肉类、禽类及其他动物性食品（未加工）,USDA branded_food_category 文本
+branded,Meat/Poultry/Other Animals - Unprepared/Unprocessed,Meat/Poultry/Other Animals - Unprepared/Unprocessed,生鲜肉类、禽类及其他动物性食品（未加工）,USDA branded_food_category 文本
+branded,Mexican Dinner Mixes,Mexican Dinner Mixes,墨西哥风味晚餐配料包,USDA branded_food_category 文本
+branded,"Oriental, Mexican & Ethnic Sauces","Oriental, Mexican & Ethnic Sauces",东方、墨西哥及异域风味酱汁,USDA branded_food_category 文本
+branded,"Pepperoni, Salami & Cold Cuts","Pepperoni, Salami & Cold Cuts",意大利辣香肠、萨拉米与冷切肉,USDA branded_food_category 文本
+branded,"Pickles, Olives, Peppers & Relishes","Pickles, Olives, Peppers & Relishes",酸黄瓜、橄榄、辣椒与腌菜,USDA branded_food_category 文本
+branded,Prepared Pasta & Pizza Sauces,Prepared Pasta & Pizza Sauces,意面与披萨酱,USDA branded_food_category 文本
+branded,Prepared Soups,Prepared Soups,即食汤品,USDA branded_food_category 文本
+branded,Soda,Soda,碳酸饮料,USDA branded_food_category 文本
+branded,Wholesome Snacks,Wholesome Snacks,健康零食,USDA branded_food_category 文本
+branded,Yogurt,Yogurt,酸奶,USDA branded_food_category 文本
+branded,"Bacon, Sausages & Ribs","Bacon, Sausages & Ribs",培根、香肠与排骨,USDA branded_food_category 文本
+branded,Bread & Muffin Mixes,Bread & Muffin Mixes,面包与玛芬预拌粉,USDA branded_food_category 文本
+branded,"Chips, Pretzels & Snacks","Chips, Pretzels & Snacks",薯片、椒盐脆饼与零食,USDA branded_food_category 文本
+branded,Cooked & Prepared,Cooked & Prepared,熟食与预制食品,USDA branded_food_category 文本
+branded,Crackers & Biscotti,Crackers & Biscotti,苏打饼干与意式脆饼,USDA branded_food_category 文本
+branded,Fats Edible,Fats Edible,食用油脂,USDA branded_food_category 文本
+branded,"Fruit & Vegetable Juice, Nectars & Fruit Drinks","Fruit & Vegetable Juice, Nectars & Fruit Drinks",果蔬汁、果肉饮料与水果饮品,USDA branded_food_category 文本
+branded,Grains/Flour,Grains/Flour,谷物与面粉,USDA branded_food_category 文本
+branded,"Jam, Jelly & Fruit Spreads","Jam, Jelly & Fruit Spreads",果酱、果冻与水果涂抹酱,USDA branded_food_category 文本
+branded,Meat/Poultry/Other Animals  Prepared/Processed,Meat/Poultry/Other Animals  Prepared/Processed,肉类、禽类及其他动物性食品（加工制品）,USDA branded_food_category 文本
+branded,Meat/Poultry/Other Animals - Prepared/Processed,Meat/Poultry/Other Animals - Prepared/Processed,肉类、禽类及其他动物性食品（加工制品）,USDA branded_food_category 文本
+branded,Meat/Poultry/Other Animals Sausages  Prepared/Processed,Meat/Poultry/Other Animals Sausages  Prepared/Processed,肉类、禽类及其他动物性香肠（加工制品）,USDA branded_food_category 文本
+branded,Nut & Seed Butters,Nut & Seed Butters,坚果与种子酱,USDA branded_food_category 文本
+branded,Other Cooking Sauces,Other Cooking Sauces,其他烹调酱汁,USDA branded_food_category 文本
+branded,Other Deli,Other Deli,其他熟食,USDA branded_food_category 文本
+branded,Other Drinks,Other Drinks,其他饮料,USDA branded_food_category 文本
+branded,Other Snacks,Other Snacks,其他零食,USDA branded_food_category 文本
+branded,Other Soups,Other Soups,其他汤品,USDA branded_food_category 文本
+branded,Pizza,Pizza,披萨,USDA branded_food_category 文本
+branded,Powdered Drinks,Powdered Drinks,冲调饮品粉,USDA branded_food_category 文本
+branded,Syrups & Molasses,Syrups & Molasses,糖浆与糖蜜,USDA branded_food_category 文本
+branded,Water,Water,饮用水,USDA branded_food_category 文本
+branded,Yogurt/Yogurt Substitutes,Yogurt/Yogurt Substitutes,酸奶与酸奶替代品,USDA branded_food_category 文本
+branded,Alcohol,Alcohol,酒精饮品,USDA branded_food_category 文本
+branded,All Noodles,All Noodles,各类面条,USDA branded_food_category 文本
+branded,Baking Additives & Extracts,Baking Additives & Extracts,烘焙添加剂与香精,USDA branded_food_category 文本
+branded,Bread,Bread,面包,USDA branded_food_category 文本
+branded,"Cake, Cookie & Cupcake Mixes","Cake, Cookie & Cupcake Mixes",蛋糕、曲奇与纸杯蛋糕预拌粉,USDA branded_food_category 文本
+branded,Canned Condensed Soup,Canned Condensed Soup,罐装浓缩汤,USDA branded_food_category 文本
+branded,Canned Seafood,Canned Seafood,罐装海鲜,USDA branded_food_category 文本
+branded,Canned Vegetables,Canned Vegetables,罐装蔬菜,USDA branded_food_category 文本
+branded,Chewing Gum & Mints,Chewing Gum & Mints,口香糖与薄荷糖,USDA branded_food_category 文本
+branded,Confectionery Products,Confectionery Products,糖果制品,USDA branded_food_category 文本
+branded,"Croissants, Sweet Rolls, Muffins & Other Pastries","Croissants, Sweet Rolls, Muffins & Other Pastries",可颂、甜面包卷、玛芬及其他糕点,USDA branded_food_category 文本
+branded,"Energy, Protein & Muscle Recovery Drinks","Energy, Protein & Muscle Recovery Drinks",能量、蛋白与运动恢复饮品,USDA branded_food_category 文本
+branded,Fish - Prepared/Processed,Fish - Prepared/Processed,鱼类（加工制品）,USDA branded_food_category 文本
+branded,Flavored Snack Crackers,Flavored Snack Crackers,风味休闲饼干,USDA branded_food_category 文本
+branded,Flours & Corn Meal,Flours & Corn Meal,面粉与玉米粉,USDA branded_food_category 文本
+branded,"Frozen Pancakes, Waffles, French Toast & Crepes","Frozen Pancakes, Waffles, French Toast & Crepes",冷冻煎饼、华夫饼、法式吐司与可丽饼,USDA branded_food_category 文本
+branded,Herbs & Spices,Herbs & Spices,香草与香料,USDA branded_food_category 文本
+branded,Herbs/Spices/Extracts,Herbs/Spices/Extracts,香草、香料与香精,USDA branded_food_category 文本
+branded,Honey,Honey,蜂蜜,USDA branded_food_category 文本
+branded,"Ketchup, Mustard, BBQ & Cheese Sauce","Ketchup, Mustard, BBQ & Cheese Sauce",番茄酱、芥末、烧烤酱与芝士酱,USDA branded_food_category 文本
+branded,Milk Additives,Milk Additives,乳制品添加物,USDA branded_food_category 文本
+branded,Other Frozen Desserts,Other Frozen Desserts,其他冷冻甜点,USDA branded_food_category 文本
+branded,Other Meats,Other Meats,其他肉类,USDA branded_food_category 文本
+branded,Pasta/Noodles,Pasta/Noodles,意面与面条,USDA branded_food_category 文本
+branded,Pastry Shells & Fillings,Pastry Shells & Fillings,派皮与馅料,USDA branded_food_category 文本
+branded,Plant Based Milk,Plant Based Milk,植物基奶,USDA branded_food_category 文本
+branded,Pre-Packaged Fruit & Vegetables,Pre-Packaged Fruit & Vegetables,预包装水果与蔬菜,USDA branded_food_category 文本
+branded,Puddings & Custards,Puddings & Custards,布丁与蛋奶冻,USDA branded_food_category 文本
+branded,Sport Drinks,Sport Drinks,运动饮料,USDA branded_food_category 文本
+branded,Tea Bags,Tea Bags,茶包,USDA branded_food_category 文本
+branded,Tomatoes,Tomatoes,番茄,USDA branded_food_category 文本
+branded,Vegetable Based Products / Meals,Vegetable Based Products / Meals,植物基制品与餐食,USDA branded_food_category 文本
+branded,Vegetable and Lentil Mixes,Vegetable and Lentil Mixes,蔬菜与扁豆混合制品,USDA branded_food_category 文本
+branded,Vegetables  Prepared/Processed,Vegetables  Prepared/Processed,蔬菜（加工制品）,USDA branded_food_category 文本
